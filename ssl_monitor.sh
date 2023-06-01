@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Daftar domain yang akan dipantau
-domains=("example.com" "google.com" "facebook.com")
+domains=("youtube.com" "google.com" "facebook.com")
 
 # Fungsi untuk memantau sertifikat SSL
 monitor_ssl() {
