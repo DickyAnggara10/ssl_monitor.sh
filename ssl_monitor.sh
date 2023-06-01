@@ -23,4 +23,3 @@ monitor_ssl() {
 
 # Panggil fungsi monitor_ssl
 monitor_ssl
-
