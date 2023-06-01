@@ -1,5 +1,5 @@
 
-domains=("youtube.com" "google.com" "codingcollective.com")
+domains=("siasat.uksw.edu" "google.com" "codingcollective.com")
 
 for domain in "${domains[@]}"
 do
