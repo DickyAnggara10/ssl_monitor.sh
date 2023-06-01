@@ -12,7 +12,8 @@ monitor_ssl() {
     echo "------------------------------"
 
     # Mendapatkan informasi sertifikat SSL menggunakan perintah openssl
-    certificate_info=$(openssl s_client -connect "$domain":443 -servername "$domain" -showcerts 2>/dev/null | openssl x509 -noout -text)
+   certificate_info=$(openssl s_client -connect "$domain":443 -servername "$domain" -showcerts </dev/null 2>/dev/null | openssl x509 -noout -text)
+
 
     # Ekstrak dan tampilkan detail sertifikat
     subject=$(echo "$certificate_info" | awk -F 'subject=' '/subject=/ {print $2}')
