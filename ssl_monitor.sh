@@ -32,5 +32,5 @@ monitor_ssl() {
   done
 }
 
-# Panggil fungsi monitor_ssl
+
 monitor_ssl
