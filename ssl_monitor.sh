@@ -1,5 +1,5 @@
 
-domains=("youtube.com" "google.com" "codingcollective.com")
+domains=("youtube.com" "yahoo.com" "codingcollective.com")
 
 
 monitor_ssl() {
